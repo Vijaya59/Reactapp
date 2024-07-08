@@ -9,7 +9,7 @@ useEffect(() => {
   fetch("videoData.json")
   .then(response => response.json())
   .then(data => setVideos(data))
-  .catch(error => console.error("Problem with fetching dta!!",error))
+  .catch(error => console.error("Problem with fetching data!!",error))
 },[])
 
 
